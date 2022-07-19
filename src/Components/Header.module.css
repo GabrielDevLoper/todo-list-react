@@ -1,0 +1,18 @@
+.header {
+    background: #0D0D0D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    gap: 1rem;
+}
+
+.logoTo {
+    font-size: 3rem;
+    color: #4EA8DE;
+}
+
+.logoDo {
+    font-size: 3rem;
+    color: #5E60CE;
+}

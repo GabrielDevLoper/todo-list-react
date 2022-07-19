@@ -1,0 +1,91 @@
+
+.headerTasks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.createdTasks strong {
+    color: #4EA8DE;
+}
+
+.tasksDone strong{
+    color: #8284FA;
+}
+
+.countCreatedTasks {
+    color: white;
+    margin-left: 0.5rem;
+    background: #333333;
+    padding: 0.4rem;
+    border-radius: 6px;
+}
+
+.countTasksDone {
+    color: white;
+    margin-left: 0.5rem;
+    background: #333333;
+    padding: 0.4rem;
+    border-radius: 6px;
+}
+
+.contentTasks {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.contentTasks h3{
+    color: #c5c5c5;
+}
+
+.contentTasks span{
+    color: #c5c5c5;
+}
+
+.containerTasks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    background: #333333;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.containerTasks {
+    list-style: none;
+    color: white;
+}
+
+.containerTasks li {
+    list-style: none;
+}
+
+.center {
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.buttonDeleteTask {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.finishedTask {
+    text-decoration: line-through;
+    color: #939090;
+    padding: 1rem;
+}
+
+.buttonCheckbox {
+    
+}
+
+.taskPendent {
+    padding: 1rem;
+}

@@ -1,0 +1,41 @@
+
+.formNewText {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: -1.4rem;
+}
+
+.inputText {
+    width: 35rem;
+    background: #262626;
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 8px;
+    color: white;
+}
+
+.inputText::placeholder {
+    color: #c5c5c5;
+}
+
+.buttonSubmit {
+    background: #1E6F9F;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 4px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 738px;
+}
